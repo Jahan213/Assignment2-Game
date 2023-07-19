@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet");
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+nav li{
+  
+    list-style: none;
+    margin-right: 40px;
+    
+}
+nav >ul{
+    display: flex;
+    color: #3C354F;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 54px;
+    
+    
+}
+    
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav li a{
+    text-decoration: none;
+    
+}
+.nav-title{
+  
+    font-size: 45px;
+    text-align: center;
+    color: #0B0223;
+    margin-top: 35px;
+    margin-right: 680px;
+    margin-left: 0;
+}
+
+ .nav-header{
+    color: violet;
+
+}
+.social{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px 20px;
+}
+.img{
+    
+    height: 40px;
+    margin-top: 44px ;
+    margin-left: 50px;
+    margin-right: 0;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.banner-img{
+    width: auto;
+    height: auto;
+    margin-right: 0;
+    
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.banner-goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    font-weight: 800;
+    font-size: 95px;
+    text-align: center;
+    margin-left: 50px;
+
+}
+.gray{
+    color: #534C64;
+    font-size: 1,25rem;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 50px;
+
+}
+.butn-primary{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 21px 40px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    margin-left: 50px;
+
+}
+.butn-unique{
+    border-radius: 48px;
+    background: #4EC5F7;
+    gap: 10px;
+    padding: 21px 40px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border: none;
+}
+.banner-des{
+    padding: 30px;
+
+    flex-shrink: 0;
+}
+.head{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin-top: 40px;
+}
