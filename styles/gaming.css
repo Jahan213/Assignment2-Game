@@ -125,3 +125,55 @@ nav li a{
     gap: 5px;
     margin-top: 40px;
 }
+.gamer-container{
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap-reverse;
+
+}
+.foother{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.last{
+    background: #0B0223;
+    text-align: center;
+}
+.gamer{
+    display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+color: #FFF;
+text-align: center;
+}
+.head-white{
+    color: #FFF;
+    text-align: center;
+}
+@media screen and(max-width: 576px) {
+    header{
+           padding: 20px;
+
+    }
+    nav, .banner, .banner-des, .Online-game, .installs{
+        flex-direction: column;
+    }
+    .nav{
+        grid-template-columns: 1fr;
+    }
+    .Online-game{
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+}
+@media screen and(min-width:576px) and (max-width990px){
+    header{
+        padding: 50;
+    }
+    .banner-img, .banner, .nav{
+        flex-direction: column;
+    }
+}
+
